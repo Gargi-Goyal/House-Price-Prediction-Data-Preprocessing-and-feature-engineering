@@ -3,16 +3,14 @@
 ## Description
 A data preprocessing and feature engineering project for the [Kaggle House Prices dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data).
 
-## Files
+## File
 - `house_price_prediction.ipynb`: Jupyter notebook with preprocessing code
-- `data/`: Folder for dataset (create this manually)
-  - Download `train.csv` and `test.csv` from Kaggle and place here
 
 ## How to Run
 1. Download the dataset from Kaggle (link above)
-2. Create a `data` folder in the project directory
-3. Place `train.csv` and `test.csv` in the `data` folder
-4. Open and run the Jupyter notebook
+2. Open the .ipynb file 
+3. Paste the path of train and test.csv path in the code(of.ipynb file)
+4. run the Jupyter notebook
 
 ## Preprocessing Steps
 1. **Handled Missing Values**:
@@ -25,7 +23,15 @@ A data preprocessing and feature engineering project for the [Kaggle House Price
      - `TotalBath`: Weighted sum of bathrooms
      - `TotalPorch`: Combined porch area
    - Encoded categorical variables (ordinal + one-hot encoding)
-
+     
 3. **Data Transformation**:
    - Applied log transformation to `SalePrice` for normality
 
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- Libraries: pandas, numpy, matplotlib, seaborn
+
+Install with:
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
