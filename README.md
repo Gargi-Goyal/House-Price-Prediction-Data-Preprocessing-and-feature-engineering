@@ -9,7 +9,7 @@ A data preprocessing and feature engineering project for the [Kaggle House Price
 ## How to Run
 1. Download the dataset from Kaggle (link above)
 2. Open the .ipynb file 
-3. Paste the path of train and test.csv path in the code(of.ipynb file)
+3. Paste the path of train and test.csv path in the code(by right clicking on that file then clicking on copy as path)
 4. run the Jupyter notebook
 
 ## Preprocessing Steps
